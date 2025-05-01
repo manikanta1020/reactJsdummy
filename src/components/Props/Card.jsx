@@ -26,7 +26,7 @@ function Profile(){
     return(
         <>
             <h1>My contacts</h1>
-            {/* <Card 
+            <Card 
                 name={contacts[0].name} 
                 imgUrl={contacts[0].imgURL} 
                 email={contacts[0].email} 
@@ -43,7 +43,7 @@ function Profile(){
                 imgUrl={contacts[2].imgURL} 
                 email={contacts[2].email} 
                 phone={contacts[2].phone}
-            /> */}
+            />
 
             {contacts.map((contact)=> {
                 return (
