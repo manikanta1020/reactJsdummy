@@ -13,12 +13,12 @@ function Keeper(){
     return(
         <div>
             <header>Keeper App</header>
-            {notes.map(note => {
-                return (
+            {notes.map(note => 
+              
                     <Notes key={note.title}
                             title={note.title}
                             content={note.content}
-                            />)}
+                            />
                 )
             }
 
