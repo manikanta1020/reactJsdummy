@@ -5,6 +5,8 @@ import "./components/keeperApp/styles.css"
 import Keeper from './components/keeperApp/Keeper'
 import LogInForm from './components/FormApp/LogInForm'
 import Form from './components/FormApp/Form'
+import Counter from './components/State/Counter'
+import Timer from './components/State/Timer'
 // import emojipedia from './components/Props/emoji'
 
 function App() {
@@ -16,7 +18,9 @@ function App() {
       {/* <Keeper /> */}
       {/* <EmojiApp /> */}
       {/* <LogInForm /> */}
-      <Form />
+      {/* <Form /> */}
+      <Counter />
+      <Timer />
 
       
     </>
