@@ -1,5 +1,6 @@
 import './App.css'
 import "./components/keeperApp/styles.css"
+import Form from './components/State/Form'
 import SimpleForm from './components/State/SimpleForm'
 // import Profile from './components/Props/Card'
 // import EmojiApp from './components/Props/EmojiApp'
@@ -22,7 +23,8 @@ function App() {
       {/* <Form /> */}
       {/* <Counter /> */}
       {/* <Timer /> */}
-      <SimpleForm />
+      {/* <SimpleForm /> */}
+      <Form />
 
       
     </>
