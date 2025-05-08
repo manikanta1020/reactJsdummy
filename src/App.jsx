@@ -9,6 +9,7 @@ import SimpleForm from './components/State/SimpleForm'
 // import Form from './components/FormApp/Form'
 // import Counter from './components/State/Counter'
 import Timer from './components/State/Timer'
+import Users from './components/useEffect/UserData'
 // import emojipedia from './components/Props/emoji'
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
       {/* <Counter /> */}
       {/* <Timer /> */}
       {/* <SimpleForm /> */}
-      <Form />
+      {/* <Form /> */}
+      <Users />
 
       
     </>
